@@ -48,3 +48,53 @@ git commit -m "adding files"
 
 8. Push the updates
 git push
+
+#### Log for the website
+
+drea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite
+$ git config --global user.name "Andrea Scalco"
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite
+$ git config --global user.email "scalco.andrea@outlook.com"
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite
+$ git init
+Initialized empty Git repository in C:/Users/Andrea/Google Drive/DS Projects/aswebsite/.git/
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git remote add aswebsite https://github.com/ascalco/aswebsite.git
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git pull aswebsite master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ascalco/aswebsite
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> aswebsite/master
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git push -u aswebsite master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'aswebsite'.
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git add git-commands.txt
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git commit -m "commit first file: git-commands.txt"
+[master 4ea1b2e] commit first file: git-commands.txt
+ 1 file changed, 50 insertions(+)
+ create mode 100644 git-commands.txt
+
+Andrea@DESKTOP-QAKTAFG  ~/Google Drive/DS Projects/aswebsite (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 956 bytes | 478.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ascalco/aswebsite.git
+   62256b7..4ea1b2e  master -> master
