@@ -1,0 +1,50 @@
+#### Git basic commands ####
+
+#### Get started
+
+# git installation folder
+which git
+
+# git version
+git --version
+
+# introduce yourself to git
+git config --global user.name "Andrea Scalco"
+git config --global user.email "scalco.andrea@outlook.com"
+
+# Check that Git understood what you typed by looking at the output of:
+git config --global --list
+
+#### Initialise git repo from a R project  
+
+1. Go to GitHub. Create a new repository.
+    - public
+    - create a readme
+    - accept all other default options
+    
+2. Initialise the R project with:
+git init
+
+3. Add a connection with the remote repo on github with
+git remote add aswebsite https://github.com/ascalco/aswebsite.git
+    The git remote add command takes two arguments:
+      - A unique remote name, for example, a_repository_name
+      - A remote URL, which you can find on the Source sub-tab of your Git repo
+    NB: do not use virgolette
+
+4. Sync the files in the repo with local files
+git pull aswebsite master
+
+5?. Set up GitHub repo to track changes on local machine
+git push -u aswebsite master
+
+
+6. Add a file to stage
+git add gitcommands.txt
+
+7. Commit the file with message (compelled)
+git commit -m "adding files"
+    Here "-m" means message
+
+8. Push the updates
+git push
