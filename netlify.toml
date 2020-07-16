@@ -1,2 +1,9 @@
+[build]
+publish = "public"
+
 [build.environment]
 	HUGO_VERSION = "0.51"
+	HUGO_THEME = "themes/ezhil"
+  HUGO_BASEURL = "/"
+
+	
