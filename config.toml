@@ -1,0 +1,119 @@
+baseURL = "http://www.andreascalco.com/"
+languageCode = "en-us"
+title = "Andrea Scalco"
+theme = "ezhil"
+# Number of posts to show in recent posts list
+paginate = 5
+
+copyright = "(C) Copyright"
+
+# GENERAL NOTES
+# Blogdown info at https://blogdown-demo.rbind.io/
+# Theme info at https://themes.gohugo.io/ezhil/ and https://github.com/vividvilla/ezhil
+# Originally "content" was split into "post" and "posts":
+# I changed "post" with "pages" (like About) and "posts" is left for blog posts
+
+
+#The style of code highlighting (info at: https://help.farbox.com/pygments.html)
+pygmentsstyle = "vs"
+# Set to true to enable syntax highlighting in code fences with a language tag in markdown
+pygmentscodefences = true
+# Set to true to try to do syntax highlighting on code fenced blocks in markdown without a language tag
+pygmentscodefencesguesssyntax = true
+
+# Provide your tracking id in your configuration file (https://gohugo.io/templates/internal/)
+googleAnalytics = "UA-123-45"
+
+# To use Hugo’s Disqus template, you first need to set a single value in your site’s config.toml
+disqusShortname = "AScalco" # My Disqus account (https://disqus.com/home/settings/account/)
+# To be installed when launched via https://disqus.com/admin/create/
+
+summaryLength = 10
+
+[params]
+
+  #### Main page content
+  # Content types which are included in home page recent posts lists
+  mainSections = ["posts"] # ["pages"]
+  
+  #### subtitle
+  # Blog subtitle which appears below blog title (support Markdown)
+	subtitle = "Data | Behaviours | Insights"
+	
+	#### Disques
+	# List what type of content will not have Disqus comments section
+	disableDisqusTypes = ["posts"]
+	
+	#### Icons
+	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+	featherIconsCDN = true
+	# Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
+  #favicon = "icons/myicon.png"
+  
+  #### Dark mode or auto detect mode from OS (Optional).
+  # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
+	mode = "auto" # "dark", "auto", "light"
+	
+	#### Custom CSS and JS added to default styles. Files added to `static` folder is copied as it is to
+  # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
+  # you can specify custom css path as `css/custom.css`.
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS scripts.
+
+
+#### Main sections
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/pages/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+##### Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/ascalco"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/And_Scalco"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/andreascalco/"
+
+#### Tags
+[taxonomies]
+   tag = "tags"
+
+
+#### Black Friday
+[blackfriday]
+ hrefTargetBlank = true
+
+# Added based on the suggestion of Blogdown book (p.32)
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Added based on the suggestion of Blogdown book (p.31)
+[permalinks]
+  posts = "/:year/:month/:slug/"

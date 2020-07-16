@@ -1,0 +1,78 @@
+---
+title: "Exploring Data Science interest over time using Google searches"
+description: An analysis of the interest for Data Science using gtrendsR
+date: '2020-02-07'
+slug: google-trends-analysis
+tags:
+- Data Science
+- R
+- Google Trends
+- ggplot
+- gtrendsR
+showthedate: yes
+---
+
+
+
+<p>Recently, while reading R-Bloggers my interest got captured by a <a href="https://www.r-bloggers.com/fundatafriday-gtrendsr/">short review</a> about the <a href="https://cran.r-project.org/web/packages/gtrendsR/gtrendsR.pdf"><strong>gtrendsR</strong></a> package developed by P. Massicotte and D. Eddelbuettel. This package allows retrieving and displaying information from <a href="https://trends.google.com/trends"><strong>Google Trends</strong></a>, the website launched by Google that let you analyse users’ search queries performed trough its search engine. Needless to say, I immediately started playing with it, and <strong>here I summarised what I learned</strong>.</p>
+<div id="retrieve-the-data" class="section level2">
+<h2>Retrieve the data</h2>
+<p>First things first, install the package using the standard package installation method.</p>
+<pre class="r"><code>install.packages(&quot;gtrendsR&quot;)</code></pre>
+<p>After installing, it is possible to query Google Trends and collecting data using the function <code>gtrends()</code>. Nowadays <strong>Data Science</strong> seems to be a popular topic with a growing number of articles and tutorials, thus, I decided to focus on that.</p>
+<pre class="r"><code># Load package
+library(gtrendsR)
+
+# Choose the keyword(s) of interest
+google_keywords &lt;- c(&quot;Data science&quot;)
+# Note that you can also add other keywords
+
+# Retrieve data with function &quot;gtrends&quot;
+google_trend &lt;- gtrends(keyword = google_keywords,
+                   geo = &quot;&quot;,    
+                   time = &quot;today+5-y&quot;)</code></pre>
+<p>Beside specific keywords, <code>gtrends()</code> gives some useful options among others worth to mention.</p>
+<ul>
+<li><code>geo</code>: defines the location of interests (e.g. US, Europe, Italy, UK). To know the specific codes of each <strong>location</strong>, type <code>data(countries); countries</code>.<br />
+</li>
+<li><code>time</code>: a second important option is the <strong>time span</strong> of the query. Some options available includes <code>"now 7-d"</code> for the past seven days, <code>"today 12-m"</code> for the past 12 months, or <code>"Y-m-d Y-m-d"</code> for the time span between two dates.</li>
+<li><code>gprop</code>: limits the search to specific <strong>Google products</strong>. “web” is the default option, however, others options include “news”, “images”, or “youtube”.</li>
+</ul>
+<p>For this small project, the research was not limited to any specific country since it was assumed that the term “Data Science” has not been translated in most of the world regions. About the time span, a 5-year time framework was set in order to observe how the interest changed over years starting approximately from <a href="https://web.archive.org/web/20170329172857/http://datamining.it.uts.edu.au/conferences/dsaa14/">the first IEEE International Conference on Data Science and Advanced Analytics</a>. Finally, given the interest was only for web searches, the default option for Google product was left unchanged.</p>
+</div>
+<div id="plot-the-trend-of-interest" class="section level2">
+<h2>Plot the trend of interest</h2>
+<p>The package manual states that <code>gtrends()</code> generates “an object of class ‘gtrends’”. This might be a tricky object to plot since it is a list of data frames. However, the package comes with a built-in function that let you <strong>immediately plot</strong> the data collected using ggplot2.</p>
+<pre class="r"><code>plot(google_trend)</code></pre>
+<p><img src="/posts/Data_science_trend-Report-v.2.0_files/figure-html/Plot%20by%20gtrendsR-1.png" width="672" /></p>
+<p>Nice and easy, the plot shows the interest for “Data science” from 2015-07-19 to 2020-07-12 as collected by Google search engine.</p>
+<p>However, with a little more time, I managed to create <strong>my own plot</strong>, so that I could be free to build over it. To this purpose, I re-arrenged the most important information collected (i.e. the time stamps and the associate volume of search queries) along with the keyword under examination from the gtrend object to a brand-new dataframe.</p>
+<pre class="r"><code># Create tidy dataframe extracting data obtained using gtrends
+data_to_plot &lt;- data.frame(date = google_trend$interest_over_time$date,
+                           hits = google_trend$interest_over_time$hits,
+                           keyword = google_trend$interest_over_time$keyword)</code></pre>
+<p>ggplot2 was then used to trace the interest over the years (the plot appears rougher than the one provided by the package, but it does the job).</p>
+<pre class="r"><code># Load ggplot
+library(&quot;ggplot2&quot;)
+
+# Plot trend
+ggplot(data_to_plot, aes(x = date, y = hits, color = keyword)) +
+  geom_line()</code></pre>
+<p><img src="/posts/Data_science_trend-Report-v.2.0_files/figure-html/Plot%20basic%20trend-1.png" width="672" /></p>
+<p>By observing the plot, the interest for Data Science seems to be a growing trend. This appears in line with many recent articles on the topic (see especially <a href="https://www.ibm.com/downloads/cas/3RL3VXGA">the report by IBM</a>). As a personal reminder, <strong>an interesting idea for the future</strong> could be to refine the work by introducing <strong>time series analysis</strong>. A starting point might be the tutorials by A. Coghlan <a href="https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html">(Using R for Time Series Analysis)</a> and by S. Prabhakaran <a href="http://r-statistics.co/Time-Series-Analysis-With-R.html">(Time Series Analysis at r-statistics.co)</a>.</p>
+<p>Besides the growth, the plot seems to display a certain pattern in the search queries: it goes down and up almost at the end of the year. Could it be around Christmas? That would be something that generally affect almost everypart of the world. Let’s add some marks for Christmas days and see if they match the spikes. To quickly spot Christmas days, I added some rectangles indicating the days between the 25th December and 3rd of January (when generally Christmas break ends) for each year over the previous plot.</p>
+<pre class="r"><code># Define a vector that contains Christmas (xmas) breaks
+xmas_start &lt;- as.POSIXct(paste(&quot;20&quot;, c(15:19), &quot;-12-25&quot;, sep = &quot;&quot;))
+xmas_end &lt;- as.POSIXct(paste(&quot;20&quot;, c(16:20), &quot;-01-03&quot;, sep = &quot;&quot;))
+xmas_dates &lt;- data.frame(xmas_start, xmas_end)</code></pre>
+<p><img src="/posts/Data_science_trend-Report-v.2.0_files/figure-html/Plot%20trend%20+%20Xmas%20dates-1.png" width="672" /></p>
+</div>
+<div id="when-should-a-new-data-science-be-launched" class="section level2">
+<h2>When should a new Data Science be launched?</h2>
+<p><strong>It’s the most wonderful time of the year…to start learning about Data Science!</strong> The days after Christmas appear in line with the spikes of interest. Thus, immediately after Christamas might be one of the best moments of the year to launch a tutorial on Data Science.</p>
+<p>Now, it would be interesting to understand <strong><em>why</em></strong> there is a sudden shift of interest and the spike are mostly during Christams breaks. A first interpration involves more free time available during holidays. Generally during Christmas people have more time to spend on the internet, browsing the latest tech news, and so on, and thus the observed trend could simply be the reflection of <strong>more users browsing the internet</strong>. Another explanation could involve <strong>word-of-mouth</strong>. Commonly, Christmas is that time of the year where people gather together, thus, increasing the chance for people to talk and spread the interests about Data Science, maybe thanks to a geeky uncle or cousin. Finally, a third interpretation is related to the start of new year. It is quite common for people to commit to <strong>new intentions</strong> for the coming year: learning more about Data Science might fall among the options</p>
+</div>
+<div id="limitations" class="section level2">
+<h2>Limitations</h2>
+<p>Nevertheless, it must be considered that the information came only from people that used Google. Although Google is <a href="https://gs.statcounter.com/search-engine-market-share">the most used search engine across the world</a>, results from the others search engines were not included in the analysis (for instance, <a href="https://www.bing.com">Bing</a>, or the more recent “green” search engine <a href="https://www.ecosia.org/?c=en">Ecosia</a>). Analogously, bear in mind that this is the interest for Data Science showed by those who have access to a computer and internet, and Google Trends did not have any restriction about the location.</p>
+</div>
