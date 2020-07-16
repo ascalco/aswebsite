@@ -1,7 +1,8 @@
+[context.deploy-preview]
+command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
 
 
 [build.environment]
 	HUGO_VERSION = "0.51"
-  HUGO_THEME = "repo"
 
 	
