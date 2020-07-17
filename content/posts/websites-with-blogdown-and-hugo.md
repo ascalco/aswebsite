@@ -56,9 +56,9 @@ Let's recap: your. So, the hardest part is gone. Now, to create a post:
 
 2. Work on your post. When ready change "draft:" from "yes" to "no". 
 
-2.a. If the post is a simple text (.md), then the post will be rendered automatically by Netlify's Hugo. So, stage the post, commit it, push it. Netlify will identify the change and update only that part of the site.
+2.a. If the post is a simple text (.md), then the post will be rendered automatically by Netlify's Hugo. So, it is sufficient to upload it to the remote repo.
 
-2.b. If the post is Rmarkdown file then render the file individually. Then stage, commit, and push the original Rmd file together with th
+2.b. If the post is a Rmarkdown file (.Rmd/.Rmarkdown), then Netlify will not render it. Just render the file individually and push it to the remote repo. Pay attention that by using Rmarkdown files they will all be rendered when you use serve_site() to see the website locally. A better strategy might be to just write the code in (plai) markdown files, and keep your Rmarkdown files (o R scripts) in a separate folder that will be ignored by git. In this way you can always preview the website locally in a very fast way,
 
 3. The previous operation will take the posts under the content folder and render them in HTML. When you save a post, you should see the Git panel of RStudio showing you the file just saved ready to be staged, commited, and finally pushed to the GitHub repository.
 
