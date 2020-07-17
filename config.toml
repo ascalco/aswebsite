@@ -22,7 +22,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # Provide your tracking id in your configuration file (https://gohugo.io/templates/internal/)
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-172912578-1"
 
 # To use Hugo’s Disqus template, you first need to set a single value in your site’s config.toml
 disqusShortname = "AScalco" # My Disqus account (https://disqus.com/home/settings/account/)

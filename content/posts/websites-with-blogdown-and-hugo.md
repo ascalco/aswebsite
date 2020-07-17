@@ -56,9 +56,13 @@ Let's recap: your. So, the hardest part is gone. Now, to create a post:
 
 2. Work on your post. When ready change "draft:" from "yes" to "no". 
 
-2.a. If the post is a simple text (.md), then the post will be rendered automatically by Netlify's Hugo. So, it is sufficient to upload it to the remote repo.
+2.a. If the post is a simple text (.md), then the post will be rendered automatically by Netlify's Hugo. So, it is sufficient to upload it to the remote repo. MD files can contain piece of codes, but their only aesthetic, code will not be executed.
 
-2.b. If the post is a Rmarkdown file (.Rmd/.Rmarkdown), then Netlify will not render it. Just render the file individually and push it to the remote repo. Pay attention that by using Rmarkdown files they will all be rendered when you use serve_site() to see the website locally. A better strategy might be to just write the code in (plai) markdown files, and keep your Rmarkdown files (o R scripts) in a separate folder that will be ignored by git. In this way you can always preview the website locally in a very fast way,
+2.b. If the post is a Rmarkdown file (.Rmd/.Rmarkdown), then Netlify will not render it automatically because it would require running R. A easy-to-follow strategy is to serve the website locally. This will execute the Rmarkdown file. It will also produce the associated files (e.g. plots), and move them into /static.  Rename the extension of the original file (like, ".Rmd.ign""): this will make sure the file is not executed anymore, and you are free to preview your website locally using serve_site() only for the new files. Upload all the output files produced by serving the site to the remote repo: Netlify will publish the new post neatly.
+
+Do not use "knit" for Rmarkdown file. Although it will produce an HTML file, this will not contain the plots produce by chunks of codes. Plus, it will produce a heavier HTML file compared to serve_site().
+
+Why rename the Rmd file? This will avoid that  if destination URLs or APIs change. For instance, I have a Rmarkdown file that use gtrendsR to get data from Google trend: now it works fine, but the API later gets updated and I use serve_site() the RMarkdown file will throw an error or it might get the data but with dates different from the ones I saw, and the analysis will not be valid. That's a bad thing, you cannot check all your posts and leave with the fear they might change. Plus, it makes serve_site() faster, given that it only has to work on the newest file, rather than rendering all files.
 
 3. The previous operation will take the posts under the content folder and render them in HTML. When you save a post, you should see the Git panel of RStudio showing you the file just saved ready to be staged, commited, and finally pushed to the GitHub repository.
 
