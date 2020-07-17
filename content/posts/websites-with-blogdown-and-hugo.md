@@ -7,7 +7,7 @@ categories: []
 tags:
   - R
   - Websites
-draft: no
+draft: yes
 ---
 
 
@@ -54,7 +54,7 @@ Let's recap: your. So, the hardest part is gone. Now, to create a post:
 
 1. Use the Blogdown addin in the RStudio toolbar (Addins > New Post), a friendly alternative to blogdown::new_post(). See here for more info: https://bookdown.org/yihui/blogdown/rstudio-ide.html. Otherwise, copy and edit one of the previous posts. Acceptable files are .md/.Rmd/.Rmarkdown.
 
-2. Build locally the website calling blogdown::build_site().
+2. Work on your post. When ready change "draft:" from "yes" to "no". Stage post, commit it, push it. Netlify will identify the change and update only that part of the site.
 
 3. The previous operation will take the posts under the content folder and render them in HTML. When you save a post, you should see the Git panel of RStudio showing you the file just saved ready to be staged, commited, and finally pushed to the GitHub repository.
 
