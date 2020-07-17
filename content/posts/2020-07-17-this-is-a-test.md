@@ -1,12 +1,10 @@
 ---
-title: Test-post
+title: this is a test
 author: Andrea Scalco
 date: '2020-07-17'
-slug: test-post
+slug: this-is-a-test
 categories: []
 tags: []
 draft: yes
 ---
 
-
-this is post test
