@@ -5,6 +5,6 @@ date: '2020-07-17'
 slug: this-is-a-test
 categories: []
 tags: []
-draft: yes
+draft: no
 ---
 
