@@ -38,7 +38,7 @@ summaryLength = 10
   
   #### subtitle
   # Blog subtitle which appears below blog title (support Markdown)
-	subtitle = "Data | Behaviours | Insights"
+	subtitle = "Behaviours | Research | Insights"
 	
 	#### Disques
 	# List what type of content will not have Disqus comments section
@@ -70,8 +70,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "Portfolio"
+url = "/portfolio/portfolio_main"
 weight = 2
 
 [[menu.main]]
@@ -79,28 +79,28 @@ name = "About"
 url = "/pages/about"
 weight = 3
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+#[[menu.main]]
+#name = "Tags"
+#url = "/tags"
+#weight = 4
 
 ##### Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/ascalco"
+#[[params.social]]
+#name = "Github"
+#icon = "github"
+#url = "https://github.com/ascalco"
+
+#[[params.social]]
+#name = "Twitter"
+#icon = "twitter"
+#url = "https://twitter.com/And_Scalco"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/And_Scalco"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/andreascalco/"
+name = "email"
+icon = "email"
+url = "as.uxr@yahoo.com"
 
 #### Tags
 [taxonomies]
