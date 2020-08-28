@@ -8,4 +8,4 @@ categories: []
 draft: yes
 ---
 
-This is a link to [case study 1]
+This is a link to [case study 1](/portfolio/case_study_SUS)

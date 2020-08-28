@@ -71,7 +71,7 @@ weight = 1
 
 [[menu.main]]
 name = "Portfolio"
-url = "/portfolio/portfolio_main"
+url = "/portfolio/portfolio_main" # Link to portfolio main page
 weight = 2
 
 [[menu.main]]
