@@ -7,6 +7,8 @@ type: page
 
 This is some static page where you can write about yourself.
 
+
+
 #### Currently working on
 
 - **Computational models of dietary behaviours**: evaluation of the effectiveness of social marketing interventions in reducing meat over-consumption in the UK population.
@@ -15,8 +17,10 @@ This is some static page where you can write about yourself.
 
 #### Education
 
-- BSc/MSc in Behavioral and Social Psycology, University of Padua (Italy) 
-- PhD in Human Sciences - Psychology, University of Verona (Italy)
+| **PhD in Human Science**            | **BSc & MSc in Psychology** |   |   |   |
+|-------------------------------------|------------------------------------------------------|---|---|---|
+| 2017 - University of Verona (Italy) | 2012 - University of Verona (Italy) |   |   |   |
+
 
 #### Active Collaborations
 
