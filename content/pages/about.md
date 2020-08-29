@@ -14,15 +14,15 @@ type: page
 + **User Experience Researcher**  
 (2018-2020) The James Hutton Institute (Aberdeen, UK) 
 
-+ 2017-2020 - **Postdoctoral Research**  
-(2017-2020) University of Aberdeen - College of Medicine, Medical Science, and Nutrition (Aberdeen, UK)
++ **Postdoctoral Research**  
+(2017-2020) University of Aberdeen - School of Medicine, Medical Science, and Nutrition (Aberdeen, UK)
 
 #### Education
 
-2017 - **PhD in Human Science**
++ 2017 - **PhD in Human Science**  
 University of Verona (Italy)
 
-2012 - **BSc & MSc in Psychology** 
++ 2012 - **BSc & MSc in Psychology**  
 University of Padova (Italy) 
 
 #### Achievements

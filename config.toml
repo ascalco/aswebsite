@@ -98,9 +98,9 @@ weight = 3
 #url = "https://twitter.com/And_Scalco"
 
 [[params.social]]
-name = "email"
+name = "twitter"
 icon = "twitter"
-url = "as.uxr@yahoo.com"
+url = "https://twitter.com/And_Scalco"
 
 #### Tags
 [taxonomies]
