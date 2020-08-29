@@ -19,13 +19,20 @@ type: page
 
 #### Education
 
-+ 2017 - **PhD in Human Science**  
++ 2017 - **PhD in Human Sciences**  
 University of Verona (Italy)
 
 + 2012 - **BSc & MSc in Psychology**  
 University of Padova (Italy) 
 
+
+|                                     |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| **PhD in Human Science**            | **BSc & MSc in Social and Communication Psychology** |
+| 2017 - University of Verona (Italy) | 2012 - University of Verona (Italy)                  |
+
+
 #### Achievements
 
-+ Awarded for the "*Best PhD 2018 thesis*" by the Italian Psychology Association. 
++ Awarded for the "*Best PhD 2018 Thesis*" by the Italian Psychology Association. 
 + Doctoral Scholarship sponsored by the University of Verona (Italy).
