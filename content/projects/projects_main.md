@@ -5,4 +5,12 @@ title: Projects
 type: page
 ---
 
-This is a link to [case study 1](/portfolio/case_study_SUS)
+# Projects
+
+## Usability tests
+
+## Application of Behavioural Sciences principles
+
+... [Read more](/projects/case_study_SUS)
+
+## Development of Novel UX Research Tools
