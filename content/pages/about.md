@@ -26,9 +26,8 @@ University of Verona (Italy)
 University of Padova (Italy) 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
 | **PhD in Human Science**            | **BSc & MSc in Social and Communication Psychology** |
+|-------------------------------------|------------------------------------------------------|
 | 2017 - University of Verona (Italy) | 2012 - University of Verona (Italy)                  |
 
 
