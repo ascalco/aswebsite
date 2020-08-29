@@ -1,11 +1,9 @@
 ---
-title: "UX-Case_study-SUS_Analyser"
+title: "SUS.io"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
 ---
-
-# SUS.io
 
 ## Overview: Measure usability with scientific rigour
 
@@ -30,7 +28,9 @@ I divided the research process into 4 tasks.
 
 1 - **Evaluate metrics.** After reviewing several publication about the SUS, it seems that besides computing the individual and overall scores, other psychometric metrics are important (for instance, the reliabiliaty of the questionnare and the subscales). In this phase I reviewed and listed the metrics associated with the SUS. Then, I ordered them by importance to create an architecture of information. Also,I decided to focus on outputs and limited the inputs to one (i.e. the file containting the SUS raw scores from users). The primary information pertain to the overall scores, while secondary information pertain to individual scores.
 
---- INFORMATION HIERARCHY ---
+<img src="/projects/case_study_SUS_files/SUS-Information-List.png" alt="List of information to display" width="700px" height="1000px"/>
+
+<img src="/projects/case_study_SUS_files/SUS-Information-Hierarchy.png" alt="Hierarchy of information" width="2000px" height="700px"/>
 
 2 - **Hands-on programming**. I downloaded a case study about the SUS[2] and performed the analysis in R for the metrics identified in the first step. The final (rough) script can be downloaded here: [SUS-Script_R-v2.1]().
 
