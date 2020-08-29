@@ -15,7 +15,7 @@ type: page
 (2018-2020) The James Hutton Institute (Aberdeen, UK) 
 
 + **Postdoctoral Research**  
-(2017-2020) University of Aberdeen - School of Medicine, Medical Science, and Nutrition (Aberdeen, UK)
+(2017-2020) University of Aberdeen (Aberdeen, UK)
 
 #### Education
 

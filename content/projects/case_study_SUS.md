@@ -28,11 +28,14 @@ I divided the research process into 4 tasks.
 
 1 - **Evaluate metrics.** After reviewing several publication about the SUS, it seems that besides computing the individual and overall scores, other psychometric metrics are important (for instance, the reliabiliaty of the questionnare and the subscales). In this phase I reviewed and listed the metrics associated with the SUS. Then, I ordered them by importance to create an architecture of information. Also,I decided to focus on outputs and limited the inputs to one (i.e. the file containting the SUS raw scores from users). The primary information pertain to the overall scores, while secondary information pertain to individual scores.
 
-<img src="/projects/case_study_SUS_files/SUS-Information-List.png" alt="List of information to display" width="700px" height="1000px"/>
+<img src="/./about_files/AScalco-Profile_pic-white.jpg" alt="AScalco" width="135px" height="175px"/>
 
-<img src="/projects/case_study_SUS_files/SUS-Information-Hierarchy.png" alt="Hierarchy of information" width="2000px" height="700px"/>
 
-2 - **Hands-on programming**. I downloaded a case study about the SUS[2] and performed the analysis in R for the metrics identified in the first step. The final (rough) script can be downloaded here: [SUS-Script_R-v2.1]().
+<img style="padding: 15px; margin: 0px; float: left;" src="/projects/case_study_SUS_files/SUS-Information-List.png" alt="List of information to display" width="350px" height="500px"/>
+
+<img src="/projects/case_study_SUS_files/SUS-Information-Hierarchy.png" alt="Hierarchy of information" width="1000px" height="350px"/>
+
+2 - **Hands-on programming**. I downloaded a case study about the SUS[2] and performed the analysis in R for the metrics identified in the first step. The final (rough) script can be downloaded here: [SUS-Script_R-v2.1](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx).
 
 3 - **Design a neat interface**. Here the work done in phase 1 came to a value again. I split the information to be presented in two tabs and presented them considering their relevance. I iterated through different designs until I came to a satisfactory result. I need also to consider my skill level with the developement of custom templates for Shiny, the software I chose to use to bring together data analysis and user interface. 
 
