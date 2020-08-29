@@ -11,7 +11,7 @@ The System Usability Scale (SUS) is a quick and useful tool for measuring the us
 
 Although some spredsheet templates are available for the score of the SUS, an automated programme for data reporting is today missing. Given it is often use, automate the analysis could save much time. 
 
-In this work, I designed and developed a data reporting programme for the SUS thinking, mainly to easy my work. A working prototype is available here: [HTTP](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). Try it with a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) or upload your data [2].
+In this work, I designed and developed a data reporting programme for the SUS thinking, mainly to easy my work. A working prototype is available here: [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). Try it with a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) or upload your data [2].
  
 
 ### The challenge: Automate now, save time later
@@ -44,7 +44,7 @@ I divided the work process into 4 tasks.
 
 ### Results 
 
-A working prototype is available here: [HTTP](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). You can download a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) and upload it into the online programme to see the magic! [1] You can also upload your data [2].
+A [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). You can download a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) and upload it into the online programme to see the magic! [1] You can also upload your data [2].
 
 The first tab present the primary information a user may want from the SUS.
 The most important information (the scores for the overall questionnaire and its subscales) are presented immediatily to users. Also, information about the scores and the associated reliability are grouped together by color (purple, green, orange), hierarchically organised (left: score, right: scale reliability), and 

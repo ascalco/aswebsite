@@ -70,7 +70,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Portfolio"
+name = "Projects"
 url = "/projects/projects_main"
 weight = 2
 
