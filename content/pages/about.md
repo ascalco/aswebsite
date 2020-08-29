@@ -19,13 +19,6 @@ type: page
 
 #### Education
 
-+ 2017 - **PhD in Human Sciences**  
-University of Verona (Italy)
-
-+ 2012 - **BSc & MSc in Psychology**  
-University of Padova (Italy) 
-
-
 | **PhD in Human Science**            | **BSc & MSc in Social and Communication Psychology** |
 |-------------------------------------|------------------------------------------------------|
 | 2017 - University of Verona (Italy) | 2012 - University of Verona (Italy)                  |
