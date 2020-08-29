@@ -42,7 +42,7 @@ summaryLength = 10
 	
 	#### Disques
 	# List what type of content will not have Disqus comments section
-	disableDisqusTypes = ["posts"]
+	disableDisqusTypes = ["posts", "pages", "projects"]
 	
 	#### Icons
 	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
@@ -99,7 +99,7 @@ weight = 3
 
 [[params.social]]
 name = "email"
-icon = "email"
+icon = "twitter"
 url = "as.uxr@yahoo.com"
 
 #### Tags
