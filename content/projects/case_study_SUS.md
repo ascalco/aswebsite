@@ -6,8 +6,6 @@ output: html_document
 type: projects
 ---
 
-### Overview: Measure usability with scientific rigour
-
 The System Usability Scale (SUS) is a quick and useful tool for measuring the usability of a variety of products (including websites and apps). Immediately after the interaction with the products, users responds to a 10-item questionnaire with five response options (from "Stronlgy agree" to "Strongly disagree"). It is so popular that it accounts for more than 40% of post-test questionnaire usage (Sauro & Lewis, 2009).
 
 Although some spredsheet templates are available for the score of the SUS, an automated programme for data reporting is today missing. Given it is often use, automate the analysis could save much time. 

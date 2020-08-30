@@ -6,8 +6,6 @@ output: html_document
 type: projects
 ---
 
-### Overview: HealthyU pricing plans
-
 Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is faux case study I developed after my experience in the health and nutrition sectory. I challenged myself to increase customers subscriptions to an online community with the minimum edits to the original plan. To this purpose, I leveraged one of my favourite cognitive phenomenon: the attraction effect. Statistical results showed that customers preferring the higher subscription plan, where customers engage with the online community, increased from 60% to 85%.
 
 ### The challenge: Increase the registration to the community
