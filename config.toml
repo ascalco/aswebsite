@@ -81,7 +81,7 @@ weight = 3
 
 #[[menu.main]]
 name = "Contact"
-url = "/Contact"
+url = "/pages/contact"
 weight = 4
 
 ##### Social media links which shows up on site header.

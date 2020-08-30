@@ -19,6 +19,8 @@ It may seems a paradox, but in some cases adding a third choice can reduce the u
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
 
+Without altering the services offered by HealthyU, we can create a middle option that will act as a decoy. You can see that Plan C is equal to the original Plan B. The new Plan B is the decoy option. Being worse than C it should move users' preferences towards the desired plan, which full engage customers with the community and a healthy living style.
+
 <img src="/projects/case_study_pricing_plans_files/Plans-3_Options_with_decoy.png" alt="3-option plan" width="700px" height="450px"/>
 
 
