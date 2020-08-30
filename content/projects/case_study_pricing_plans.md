@@ -66,7 +66,7 @@ Since we are interested in seeing if the preference moved to the £5 plan, we ca
 
 We can again use the z-test to assess the statistical difference between the proportions of the 3-option pricing plans running in R ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, there 3-option plan which used a third option as a decoy actually moved users preferences towards the £5 plans. We can also estimate the 95% confidence intervals and plot them to visually inspect the differences.
 
-<img src="/projects/case_study_pricing_plans_files/Percentage_preference_prices_1000x600+CIs.png" alt="Preference based on available prices" width="700px" height="450px"/>
+<img src="/projects/case_study_pricing_plans_files/Percentage_preference_prices_1000x600+CIs_b.png" alt="Preference based on available prices" width="700px" height="450px"/>
 
 
 ### Reflections

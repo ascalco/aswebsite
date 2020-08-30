@@ -7,7 +7,7 @@ type: page
 
 ### Usability tests
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget magna auctor convallis. Suspendisse convallis quam quis molestie fermentum. Aliquam erat volutpat. Pellentesque non dui commodo, maximus ante at, efficitur sapien. Praesent eget nisl efficitur, hendrerit sapien vel, molestie tellus. Etiam ornare, justo id elementum gravida, metus leo vehicula ex... [Read more](/projects/case_study_pricing_plans)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget magna auctor convallis. Suspendisse convallis quam quis molestie fermentum. Aliquam erat volutpat. Pellentesque non dui commodo, maximus ante at, efficitur sapien. Praesent eget nisl efficitur, hendrerit sapien vel, molestie tellus. Etiam ornare, justo id elementum gravida, metus leo vehicula ex... [Read more](/projects/case_study_MeatNet)
 
 ### Application of Behavioural Sciences principles
 
