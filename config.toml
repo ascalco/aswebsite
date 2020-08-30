@@ -5,7 +5,7 @@ theme = "ezhil"
 # Number of posts to show in recent posts list
 paginate = 5
 
-copyright = "[as.uxr@yahoo.com](mailto:as.uxr@yahoo.com) | (C) Copyright"
+copyright = "(C) Copyright"
 
 # GENERAL NOTES
 # Blogdown info at https://blogdown-demo.rbind.io/
@@ -38,7 +38,7 @@ summaryLength = 10
   
   #### subtitle
   # Blog subtitle which appears below blog title (support Markdown)
-	subtitle = "Behaviours | Research | Insights"
+	subtitle = "Research | Answer | Iterate" # Behaviours | Research | Insights
 	
 	#### Disques
 	# List what type of content will not have Disqus comments section
