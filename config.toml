@@ -5,7 +5,7 @@ theme = "ezhil"
 # Number of posts to show in recent posts list
 paginate = 5
 
-copyright = "(C) Copyright"
+copyright = "as.uxr@yahoo.com | (C) Copyright"
 
 # GENERAL NOTES
 # Blogdown info at https://blogdown-demo.rbind.io/
@@ -79,7 +79,7 @@ name = "About"
 url = "/pages/about"
 weight = 3
 
-#[[menu.main]]
+[[menu.main]]
 name = "Contact"
 url = "/pages/contact"
 weight = 4
