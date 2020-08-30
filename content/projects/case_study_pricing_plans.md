@@ -28,16 +28,13 @@ Now, we observe the 3-option pricing plan. It is clear that now the majority of 
 
 
 | **Pricing plan** | **Plan** | **No. of users** | **Percentage** | 
-| ---------------- | -------- | ---------------- | -------------- |
-| 2 options        | Plan A   | 8                | 40%            |
-
-| Pricing plan | Plan | No. of users | Percentage |
 |---|---|---|---|
 | 2 options | Plan A | 8 | 40% |
 | 2 options | Plan B | 12 | 60% |
 | 3 options | Plan A | 3 | 15% |
 | 3 options | Plan B | 4 | 20% |
 | 3 options | Plan C | 13 | 65% |
+
 
 <img src="/projects/case_study_pricing_plans_files/Percentage_preference_plans_1000x600.png" alt="Preference for pricing plans" width="700px" height="450px"/>
 
