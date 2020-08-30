@@ -14,11 +14,10 @@ Some of the things that would make me lose track of time:
 + Evaluate psychometric properties of standardised questionnaires
 + Leverage Behavioural Economics principles to improve users experiences
 + Analyse behavioural data and provide science-driven reccomendations
-+ Automate analysis and reports
-+ Compile thorough competitive analysis and spot gaps in the market
 + Design and analyse behavioral studies and A/B tests
 + Conduct focus groups and structured interviews
 + Design, conduct, and analyse in-person usability tests
++ Automate analyses and reports in R
 + Create neat reports and presentations for non-technical audiences
 
 All backed up by enthusiasm, empathy, and a scientific approach to problems.
@@ -39,12 +38,9 @@ University of Aberdeen - Scool of Medicine, Medical Sciences, and Nutrition
 
 ### Education
 
-<right
-
 | **PhD in Human Science**             | **BSc & MSc in Social and Communication Psychology**  |
 |:-------------------------------------|:------------------------------------------------------|
 | 2017 - University of Verona (Italy)  | 2012 - University of Padova (Italy)                   |
-
 
 ### Achievements
 
