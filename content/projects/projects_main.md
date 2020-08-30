@@ -11,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget mag
 
 ### Application of Behavioural Sciences principles
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget magna auctor convallis. Suspendisse convallis quam quis molestie fermentum. Aliquam erat volutpat. Pellentesque non dui commodo, maximus ante at, efficitur sapien. Praesent eget nisl efficitur, hendrerit sapien vel, molestie tellus. Etiam ornare, justo id elementum gravida, metus leo vehicula ex... [Read more](/projects/case_study_pricing_plans)
+Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is faux case study I developed after my experience in the health and nutrition sectory. I challenged myself to increase customers subscriptions to an online community with the minimum... [Read more](/projects/case_study_pricing_plans)
 
 ### Development of novel UX Research tools
 

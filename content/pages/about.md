@@ -7,6 +7,7 @@ type: page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget magna auctor convallis. Suspendisse convallis quam quis molestie fermentum. Aliquam erat volutpat. Pellentesque non dui commodo, maximus ante at, efficitur sapien. Praesent eget nisl efficitur, hendrerit sapien vel, molestie tellus. Etiam ornare, justo id elementum gravida, metus leo vehicula ex.
 
+All backed up by enthusiasm, empathy, and a scientific approach to problems.
 
 Some of the things that would make me lose track of time:
 
@@ -20,7 +21,6 @@ Some of the things that would make me lose track of time:
 + Automate analyses and reports in R
 + Create neat reports and presentations for non-technical audiences
 
-All backed up by enthusiasm, empathy, and a scientific approach to problems.
 
 ### Work experience
 
