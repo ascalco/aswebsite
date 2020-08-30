@@ -3,26 +3,32 @@ title: "HealthyU Pricing Plans"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
+type: page
 ---
 
-## Overview: HealthyU pricing plans
+### Overview: HealthyU pricing plans
 
-HealthyU is faux case study I developed thinking after my experience in working around health and nutrition. Many 
+Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is faux case study I developed after my experience in the health and nutrition sectory. I challenged myself to increase customers subscriptions to an online community with the minimum edits to the original plan. To this purpose, I leveraged one of my favourite cognitive phenomenon: the attraction effect. Statistical results showed that customers preferring the higher subscription plan, where customers engage with the online community, increased from 60% to 85%.
 
-### The challenge: Increase registration to the community
+### The challenge: Increase the registration to the community
 
-The challenge is to increase the number of users\that choose to register and engage with HealthyU community without alter the number of types of services offered.
+The challenge is to increase the number of users that choose to register and engage with HealthyU community without altering the number or types of services offered by HealthyU.
 
 ### The solution: Add a third option...to reduce uncertainty
 
-It may seems a paradox, but in some cases adding a third choice can reduce the uncertainty. This for instance happend in the case of the decoy effect. 
+It may seems a paradox, but in some cases adding a third choice can reduce the uncertainty. This for instance happend in the case of the attraction effect (or, decoy effect).
+
+### The process
+
+First, I created the materials for the research using Figma. Below I reported HealthyU original 2-option pricing plan. The two options are said to evenly split customers between the two plans [2]. 
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
 
-Without altering the services offered by HealthyU, we can create a middle option that will act as a decoy. You can see that Plan C is equal to the original Plan B. The new Plan B is the decoy option. Being worse than C it should move users' preferences towards the desired plan, which full engage customers with the community and a healthy living style.
+Without altering the services offered by HealthyU, I created a third option that will act as a decoy. The figure below showed the renewed pricing plan with three option. You can see that Plan C is actually equal to the original Plan B. Instead, Plan B is now decoy option. Being worse than C it should move users' preferences towards the desired plan, which fully engage customers with the community and a healthy living style. 
 
 <img src="/projects/case_study_pricing_plans_files/Plans-3_Options_with_decoy.png" alt="3-option plan" width="700px" height="450px"/>
 
+The attraction effect has been demonstrated in a number of study and it seems quite robust. So, a small sample of participants should be enough to obtain meaningful results. To make things more interesting, I kept the budget low. So, website that offers research services are banned. Instead, I relied on Qualtrics free plan and Amazon Mechanical Turk (henceforth, MTurk). Long story short, I connected the two services keeping safe the anonymity of the respondents by creating a random shared ID. I then recruited 20 participants for each condition (the original 2-option plan vs. the 3-option plan, collected the responses, and analysed the data. Overall, the total expanses for the study was about £5 (£0.10 per respondent, plus MTurk service fee).
 
 ### Results 
 
@@ -65,7 +71,10 @@ We can again use the z-test to assess the statistical difference between the pro
 
 ### Reflections
 
+MTurk has been a breakthrough for the recruitment of participants in case of tight budgets. On the other side, Qualtrics only allows for 8 questions. It would be good to evaluate alternative services and their free plans (e.g. Lime Survey).
+
+Although the results are promising, they only measured customers' intention to subscribe to plans ("Read the plans available and their cost. Which one would you prefer?""). Future research should be conducted to evaluate users' behaviours.
 
 ##### Footnotes
 
-[1] ABC
+[1] The "original" plan was tested few times to get the right balance between Plan A and B.
