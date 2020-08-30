@@ -3,7 +3,7 @@ title: "SUS.io"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
-type: project
+type: projects
 ---
 
 ### Overview: Measure usability with scientific rigour
