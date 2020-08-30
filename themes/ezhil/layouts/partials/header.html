@@ -20,8 +20,6 @@
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
 
-	{{ if .Params.showthedate }}{{ dateFormat "Jan 2, 2006" .Date }}{{end}}
-
 	{{- if isset .Site.Params "favicon" -}}
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 	{{- end -}}
