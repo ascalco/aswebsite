@@ -24,9 +24,9 @@ The
 
 First, let's have a look at the preference for a 2-option pricing plan (see table and plot below). It seems that the preference is almost evenly distribute (Plan A: 40%; Plan B: 60%). To behind intution, we perform a z-test in R and assess if there is a significant difference from a random distribution (50/50). So we run: ```binom.test(x=c(12,8), p=0.5, conf.level = 0.95)```. If the resulting returned *p*-value is above 0.05 there is not a significant differentce between the proportions and we can effectively claim preferences are split half and half. The returned *p*-value is ```0.503```: users are equally split between the two plans.
 
-Now, we observe the 3-option pricing plan. It is clear that now the majority of users (more than 60%) prefer to the third option. This might seem contradictory given the Plan C in the 3-option plan is equal to Plan B from the 2-option plan. This is the result of adding an option in the middle which is better than the left option, but worser than the right option. However, let's assess the if there a true statistical difference between the options of the novel plan.
+Now, we observe the 3-option pricing plan. It is clear that now the majority of users (more than 60%) prefer to the third option. This might seem contradictory given the Plan C in the 3-option plan is equal to Plan B from the 2-option plan. This is the result of adding an option in the middle which is better than the left option, but worser than the right option. However, let's assess the if there a true statistical difference between the options of the novel plan.  
 
-
+| | | |
 | **Pricing plan** | **Plan** | **No. of users** | **Percentage** | 
 |---|---|---|---|
 | 2 options | Plan A | 8 | 40% |
