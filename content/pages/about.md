@@ -9,13 +9,16 @@ type: page
 #### Work experience
 
 + **Research Scientist**  
-(2020-Present) The James Hutton Institute (Aberdeen, UK) 
+The James Hutton Institute - Information and Computational Sciences   
+2020-Present - Aberdeen (UK)
 
 + **User Experience Researcher**  
-(2018-2020) The James Hutton Institute (Aberdeen, UK) 
+The James Hutton Institute - Social, Economic and Geographical Sciences  
+2018-2020 - Aberdeen (UK)
 
 + **Postdoctoral Research**  
-(2017-2020) University of Aberdeen (Aberdeen, UK)
+University of Aberdeen - Scool of Medicine, Medical Sciences, and Nutrition  
+2017-2020 - Aberdeen (UK)
 
 #### Education
 
