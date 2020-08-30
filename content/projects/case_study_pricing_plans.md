@@ -15,10 +15,12 @@ The challenge is to increase the number of users\that choose to register and eng
 
 ### The solution: Add a third option...to reduce uncertainty
 
-The 
+It may seems a paradox, but in some cases adding a third choice can reduce the uncertainty. This for instance happend in the case of the decoy effect. 
 
---- INSERT PLAN 2-OPT 
---- INSERT PLAN 3-OPT ---
+<img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
+
+<img src="/projects/case_study_pricing_plans_files/Plans-3_Options_with_decoy.png" alt="3-option plan" width="700px" height="450px"/>
+
 
 ### Results 
 
@@ -43,6 +45,7 @@ Now, we observe the 3-option pricing plan. It is clear that now the majority of 
 
 Since we are interested in seeing if the preference moved to the £5 plan, we can collapse plan B and C into one option. The resulting table of preference is the folling.
 
+<center>
 
 | **Pricing plan** | **Price of plan** | **No. of users** | **Percentage** |
 |---|---|---|---|
@@ -51,6 +54,7 @@ Since we are interested in seeing if the preference moved to the £5 plan, we ca
 | 3 options | £3 | 3 | 15% |
 | 3 options | £5 | 17 | 85% |
 
+</center>
 
 We can again use the z-test to assess the statistical difference between the proportions of the 3-option pricing plans running in R ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, there 3-option plan which used a third option as a decoy actually moved users preferences towards the £5 plans. We can also estimate the 95% confidence intervals and plot them to visually inspect the differences.
 
