@@ -3,7 +3,7 @@ title: "HealthyU Pricing Plans"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
-type: project
+type: projects
 ---
 
 ### Overview: HealthyU pricing plans
