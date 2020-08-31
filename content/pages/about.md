@@ -5,7 +5,7 @@ title: About
 type: page
 ---
 
-Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to problems. Over the past years, I developed artificial simulations of consumer behaviour focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my experience and skills and realised I had all the tools to make a tangible impact by researching and designign better experiences. 
+Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to problems. Over the past years, I developed artificial simulations of consumer behaviour focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my experience and skills and realised I had all the tools to express myself and make a tangible impact by researching and designing memorable experiences. 
 
 Some of the things that would make me lose track of time:
 

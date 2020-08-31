@@ -1,5 +1,5 @@
 ---
-title: "HealthyU Pricing Plans"
+title: "HealthyU pricing plans"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document

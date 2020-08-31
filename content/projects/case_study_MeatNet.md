@@ -6,15 +6,13 @@ output: html_document
 type: projects
 ---
 
-### Overview
-
-Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and to investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centric, however, the project aimed to develop an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology.
+Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems to investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centric, however, the project aimed to develop an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology.
 
 ### The challenge
 
 This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1]. Below you can see the first version of the simulation interface as programmed by the developer.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="1000px" height="600px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="500px" height="300px"/>
 
 ### The solution
 
@@ -40,7 +38,7 @@ In addition to these general recommendations, some additional suggestions to spe
 
 Following these recommendations, the interface for MeatNet was modified to the version shown in the following figure.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="1000px" height="600px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="500px" height="300px"/>
 
 #### (2) Refine and iterate
 
