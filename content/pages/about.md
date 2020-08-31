@@ -5,20 +5,19 @@ title: About
 type: page
 ---
 
-Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to problems. Over the past years, I developed artificial simulations of consumer behaviour focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my experience and skills and realised I had all the tools to express myself and make a tangible impact by researching and designing memorable experiences. 
+Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to problems. Over the past years, I developed artificial models of consumer behaviour: my work was highly focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my skills, knowledge, and experience, and I quickly realised I had all the tools to research and design meaningful experiences that would engage users and leave them with a happy memory.
 
 Some of the things that would make me lose track of time:
 
-+ Design, administer, and analyse surveys and questionnaires
-+ Evaluate psychometric properties of standardised questionnaires
-+ Leverage Behavioural Economics principles to improve users experiences
-+ Analyse behavioural data and provide science-driven reccomendations
++ Design and analyse surveys and questionnaires
++ [Leverage Behavioural Economics principles]((/projects/case_study_pricing_plans))
 + Design and analyse behavioral studies and A/B tests
 + Conduct focus groups and structured interviews
-+ Design, conduct, and analyse in-person usability tests
-+ Automate analyses and reports in R
++ Design, conduct, and analyse [in-person usability tests](/projects/case_study_MeatNet)
++ [Automate analyses and reports](/projects/case_study_SUS))
++ Analyse behavioural data and provide science-driven reccomendations
++ Evaluate psychometric properties of standardised questionnaires
 + Create neat reports and presentations for non-technical audiences
-
 
 ### Work experience
 

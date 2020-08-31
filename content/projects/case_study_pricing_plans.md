@@ -6,11 +6,11 @@ output: html_document
 type: projects
 ---
 
-Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is a faux case study I developed after my experience in the health and nutrition sector. I challenged myself to increase customers subscriptions to an online community with the minimum edits to the original plan. To this purpose, I leveraged one of my favourite cognitive phenomena: the attraction effect. Statistical results showed that customers preferring the higher subscription plan, where customers engage with the online community, increased from 60% to 85%.
+Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is a faux case study I developed after my experience in the health and nutrition sector. I challenged myself to increase customers subscriptions to an online community with the minimum edits to the original plan. To this purpose, I leveraged one of my favourite cognitive phenomena: the attraction effect. Statistical results showed that customers preferring the higher subscription plan (where customers actively engage with the community), increased from 60% to 85%.
 
 ### The challenge: Increase the registration to the community
 
-The challenge is to increase the number of users that choose to register and engage with HealthyU community without altering the number or types of services offered by HealthyU.
+The challenge is to increase the number of users that choose to register and engage with HealthyU community without altering the number or types of services offere.
 
 ### The solution: Add a third option...to reduce uncertainty
 
@@ -30,9 +30,9 @@ The attraction effect has been demonstrated in a number of studies and it seems 
 
 ### Results 
 
-First, let's have a look at the preference for a 2-option pricing plan (see table and plot below). It seems that the preference is almost evenly distributed (Plan A: 40%; Plan B: 60%). To behind intuition, we perform a z-test in R and assess if there is a significant difference from a random distribution (50/50). So we run: ```binom.test(x=c(12,8), p=0.5, conf.level = 0.95)```. If the resulting returned *p*-value is above 0.05 there is not a significant difference between the proportions and we can effectively claim preferences are split half and half. The returned *p*-value is ```0.503```: users are equally split between the two plans.
+First, let's have a look at the preference for a 2-option pricing plan (see table and plot below). It seems that the preference is almost evenly distributed (Plan A: 40%; Plan B: 60%). To move behind intuition, we perform a z-test in R and assess if there is a significant difference from a random distribution (50/50). So we run: ```binom.test(x=c(12,8), p=0.5, conf.level = 0.95)```. If the resulting *p*-value is above 0.05 there is not a significant difference between the proportions and we can effectively claim preferences are split half and half. The returned *p*-value is ```0.503```: users are equally split between the two plans.
 
-Now, we observe the 3-option pricing plan. It is clear that now the majority of users (more than 60%) prefer the third option. This might seem contradictory given the Plan C in the 3-option plan is equal to Plan B from the 2-option plan. This is the result of adding an option in the middle which is better than the left option, but worse than the right option. However, let's assess if there a true statistical difference between the options of the novel plan.  
+Now, we observe the 3-option pricing plan. It is clear that now the majority of users (more than 60%) prefer the third option. This might seem contradictory given the Plan C in the 3-option plan is equal to Plan B from the 2-option plan. This is the result of adding an option in the middle which is better than the left option, but worse than the right option. However, let's assess if there is a true statistical difference between the options of the renovated pricing plan.  
 
 <center>
 
@@ -62,11 +62,11 @@ Since we are interested in seeing if the preference moved to the £5 plan, we ca
 
 </center>
 
-We can again use the z-test to assess the statistical difference between the proportions of the 3-option pricing plans running in R ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, there 3-option plan which used a the middle option as a decoy actually moved users preferences towards the £5 plans. We can also estimate the 95% confidence intervals and plot them to visually inspect the differences.
+We can again use the z-test to assess the statistical difference between the proportions of the 3-option pricing plans running in R ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, there 3-option plan which used the middle option as a decoy actually moved users preferences towards the £5 plans. We can also estimate the 95% confidence intervals and plot them to visually inspect the differences.
 
 <img src="/projects/case_study_pricing_plans_files/Percentage_preference_prices_1000x600+CIs_b.png" alt="Preference based on available prices" width="700px" height="450px"/>
 
-Finally, if we look at the total revenues, we see that for 20 users the application of the decoy effect led to an increase about +11% (from £84 of the original 2-option plan to £94 of the 3-option plan). The average money spent by costumer also improved from £4.2/user to $4.7/user.
+Finally, if we look at the total revenues, we see that for 20 users the application of the decoy effect led to an increase of about 11% (from £84 of the original 2-option plan to £94 of the 3-option plan). The average money spent by costumer also increased  from £4.2/user to $4.7/user.
 
 ### Reflections
 
@@ -76,4 +76,4 @@ Although the results are promising, they only measured customers' intention to s
 
 ##### Footnotes
 
-[1] The "original" plan was tested a few times to get the right balance between Plan A and B.
+[^1]: The "original" plan was tested a few times to get the right balance between Plan A and B.

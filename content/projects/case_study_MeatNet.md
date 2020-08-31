@@ -6,13 +6,13 @@ output: html_document
 type: projects
 ---
 
-Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems to investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centric, however, the project aimed to develop an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology.
+Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. This project developed an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
 
 ### The challenge
 
-This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1]. Below you can see the first version of the simulation interface as programmed by the developer.
+This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet[^1]. Below you can see the first version of the simulation interface as programmed by the developer.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="500px" height="300px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="500px" height="215px"/>
 
 ### The solution
 
@@ -20,7 +20,7 @@ A series of usability tests were designed and conducted. In particular, the rese
 
 #### (1) A cognitive walkthrough of the interface
 
-I conducted a cognitive walkthrough of the simulation interface. A cognitive walkthrough is a usability evaluation method in which a trained evaluator takes on the role of an inexperienced user and asks a set of questions and works through a series of tasks from their perspective. At the end of the walkthrough, several recommendations were handled to the developer about how to improve the interface to maximise usability and learnability by potential users.
+A cognitive walkthrough is a usability evaluation method in which a trained evaluator takes on the role of an inexperienced user and asks a set of questions and works through a series of tasks from their perspective. At the end of the walkthrough, several recommendations were handled to the developer about how to improve the interface to maximise usability and learnability by potential users.
 
 General recommendations were made especially in relation to convention, consistency and clarity. For example:
 
@@ -38,13 +38,13 @@ In addition to these general recommendations, some additional suggestions to spe
 
 Following these recommendations, the interface for MeatNet was modified to the version shown in the following figure.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="500px" height="300px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="500px" height="215px"/>
 
 #### (2) Refine and iterate
 
 Following the changes made after the previous phase, a series of usability evaluations were conducted. These exercises were undertaken by non-expert participants using the think-aloud protocol, which involves asking participants to voice their thoughts as they work through a series of pre-defined tasks. Their interactions with the interface were voice and video-recorded for analysis purposes. Next to the participant set the researcher to prompt and assist if necessary. A usability evaluation undertaken in this fashion tends to require 3-5 participants to identify the key problematic issues and difficulties with an interface, at which point changes are made, and then the process begins again with the new version of the interface and a different set of participants. Iterative usability evaluations are very effective at identifying and correcting interface usability problems. The experimental set-up is shown below.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-Exp_setup.png" alt="Experimental set-up for usability evaluations" width="700px" height="450px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-Exp_setup.png" alt="Experimental set-up for usability evaluations" width="500px" height="250px"/>
 
 Participants were recruited in line with our final audience (scientists unfamiliar with artificial simulations). Before starting the study participants received an information sheet about artificial simulations. For this phase, participants sought 2 different simulations and then MeatNet. The first simulation was used to show to participants a working simulation. The second gave participants the chance to engage with a simulation. Finally, the third was the target simulation. Participants were here asked to autonomously complete 4 tasks and voice their thought processes. The study lasts about 30 minutes per participant.
 
@@ -62,4 +62,4 @@ Finally, an analysis of the answers was conducted. Overall, the work done on the
 
 ##### Footnotes
 
-[1] A [scientific paper](http://jasss.soc.surrey.ac.uk/22/4/8.html) about MeatNet aimed at an audience familiar with the artificial simulations has been recently published in the Journal of Artificial Societies and Social Simulation.
+[^1]: A [scientific paper](http://jasss.soc.surrey.ac.uk/22/4/8.html) about MeatNet aimed at an audience familiar with the artificial simulations has been recently published in the Journal of Artificial Societies and Social Simulation.
