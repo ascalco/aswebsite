@@ -6,7 +6,7 @@ output: html_document
 type: projects
 ---
 
-Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. This project developed an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
+Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. In this project **I series of usability studies** (together with another expert HCI researcher) to make simulations interfaces intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
 
 ### The challenge: make an unfriendly interface friendly
 
@@ -20,7 +20,7 @@ A series of usability tests were designed and conducted. In particular, the rese
 
 #### (1) A cognitive walkthrough of the interface
 
-A cognitive walkthrough is a usability evaluation method in which a trained evaluator takes on the role of an inexperienced user and asks a set of questions and works through a series of tasks from their perspective. At the end of the walkthrough, several recommendations were handled to the developer about how to improve the interface to maximise usability and learnability by potential users.
+A **cognitive walkthrough** is a usability evaluation method in which a trained evaluator takes on the role of an inexperienced user and asks a set of questions and works through a series of tasks from their perspective. At the end of the walkthrough, several recommendations were handled to the developer about how to improve the interface to maximise usability and learnability by potential users.
 
 General recommendations were made especially in relation to convention, consistency and clarity. For example:
 
@@ -42,7 +42,7 @@ Following these recommendations, the interface for MeatNet was modified to the v
 
 #### (2) Refine and iterate
 
-Following the changes made after the previous phase, a series of usability evaluations were conducted. These exercises were undertaken by non-expert participants using the think-aloud protocol, which involves asking participants to voice their thoughts as they work through a series of pre-defined tasks. Their interactions with the interface were voice and video-recorded for analysis purposes. Next to the participant set the researcher to prompt and assist if necessary. A usability evaluation undertaken in this fashion tends to require 3-5 participants to identify the key problematic issues and difficulties with an interface, at which point changes are made, and then the process begins again with the new version of the interface and a different set of participants. Iterative usability evaluations are very effective at identifying and correcting interface usability problems. The experimental set-up is shown below.
+Following the changes made after the previous phase, a series of usability evaluations were conducted. These exercises were undertaken by non-expert participants using the **think-aloud protocol, which involves asking participants to voice their thoughts as they work through a series of pre-defined tasks**. Their interactions with the interface were voice and video-recorded for analysis purposes. Next to the participant set the researcher to prompt and assist if necessary. A usability evaluation undertaken in this fashion tends to require 3-5 participants to identify the key problematic issues and difficulties with an interface, at which point changes are made, and then the process begins again with the new version of the interface and a different set of participants. Iterative usability evaluations are very effective at identifying and correcting interface usability problems. The experimental set-up is shown below.
 
 <img src="/projects/case_study_MeatNet_files/MeatNet_interface-Exp_setup.png" alt="Experimental set-up for usability evaluations" width="500px" height="350px"/>
 
@@ -52,7 +52,7 @@ The first usability assessment involved 3 participants. We observed where partic
 
 A second usability assessment was conducted with 3 participants. Changes made following the previous iteration successfully improved the intuitiveness of the simulation interface (e.g. the graphical window was reduced so that participants' attention was focused on plots).
 
-Four participants took part in a third iteration. This time participants encountered fewer issues when completing the tasks. It was agreed with the team that we had reached a point where the interface was reasonably intuitive to understand and use considering the limitations of the software.
+Four participants took part in a third iteration. This time participants encountered fewer issues when completing the tasks. **It was agreed with the team that we had reached a point where the interface was reasonably intuitive** to understand and use considering the limitations of the software.
 
 #### (3) Test the intuitiviness of the interface remotely
 
@@ -60,7 +60,7 @@ An online survey incorporating videos of the finalised simulation interface was 
 
 ### Results: less frightful simulations
 
-Finally, an analysis of the answers was conducted. Overall, the work done on the model drastically improved the intuitiveness of the simulation. Not only did the majority of respondents answer the questions correctly, they were able to give explanations for their answers, indicating that they understood how the model was behaving, and providing possible reasons for unexpected results.
+Finally, an analysis of the answers was conducted. Overall, **the work done on the model drastically improved the intuitiveness of the simulation**. Not only did the majority of respondents answer the questions correctly, they were able to give explanations for their answers, indicating that they understood how the model was behaving, and providing possible reasons for unexpected results.
 
 ##### Footnotes
 

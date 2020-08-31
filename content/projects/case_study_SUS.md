@@ -6,20 +6,20 @@ output: html_document
 type: projects
 ---
 
-The System Usability Scale (SUS) is a quick and useful tool for measuring the usability of a variety of products (including websites and apps). Immediately after the interaction with the products, users respond to a 10-item questionnaire with five response options (from "Strongly agree" to "Strongly disagree"). It is so popular that it accounts for more than 40% of post-test questionnaire usage (Sauro & Lewis, 2009).
+The **System Usability Scale (SUS)** is a quick and useful tool for measuring the usability of a variety of products (including websites and apps). Immediately after the interaction with the products, users respond to a 10-item questionnaire with five response options (from "Strongly agree" to "Strongly disagree"). It is so popular that it accounts for more than 40% of post-test questionnaire usage (Sauro & Lewis, 2009).
 
 Although some spreadsheet templates are available for the score of the SUS, an automated programme for data reporting is today missing. Given it is often used, automate the analysis could save much time. 
 
-In this work, I designed and developed a data reporting programme for SUS with the main aim to easy my work. A [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054) online. Try it with a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) or upload your data [1].
+In this work, I **designed and developed a data reporting programme for the SUS** with the main aim to easy my work. A [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054) online. Try it with a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) or upload your data [1].
  
 
 ### The challenge: Automate now, save time later
 
 I challenged myself to design and then produce a functional and intuitive data reporting programme. I envisaged two main sub-challenges:
 
-1 - What information could be considered relevante for the SUS?
+1 - What **information are relevant** with respect to the SUS?
 
-2- How do I convey the information in a clearn and intuitive manner? In this case, I tried applying design principles being conscious of my skills with HTML and CSS.
+2- How do I **convey the information** in a clear and intuitive manner? In this case, I tried applying design principles being conscious of my skills with HTML and CSS.
 
 ### The solution: Divide and conquer
 
@@ -39,11 +39,11 @@ I divided the work process into 4 tasks.
 
 <img src="/projects/case_study_SUS_files/SUS-Desktop_gif.gif" alt="Low fidelity prototype" width="600px" height="338px"/>
 
-4 - **The dirty work**. Using Shiny I programmed the interface, then re-coded and automate the analysis performed in phase 2.
+4 - **The dirty work**. Using [R Shiny](https://shiny.rstudio.com/) I programmed the interface, then re-coded and automate the analysis performed in phase 2.
 
 ### Results: it is alive!
 
-A [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). You can download a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) and upload it into the online programme to see the magic! [2] You can also upload your data [1].
+A [**working prototype is available**](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). You can download a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) and upload it into the online programme to see the magic! [2] You can also upload your data [1].
 
 The first tab presents the primary information a user may want from the SUS. The most important information (the scores for the overall questionnaire and its subscales) are presented immediately. Also, information about the scores and the associated reliability are grouped together by colour (purple, green, orange), hierarchically organised (left: score, right: scale reliability), and order of information is consistent within groups. However, I was not able to spatially group them as shown the design, providing some spaces between each couple of information.
 
