@@ -20,7 +20,7 @@ Determined, goal-driven and with solid critical thinking skills, I mastered Beha
 + Create neat reports and presentations for non-technical audiences
 + Talking about Psychology, UX, and research methods
 
-### Who helped me grow my experience and skills
+### Work experience
 
 + **Research Scientist**  
 The James Hutton Institute - Information and Computational Sciences   
@@ -34,13 +34,13 @@ The James Hutton Institute - Social, Economic and Geographical Sciences
 University of Aberdeen - Scool of Medicine, Medical Sciences, and Nutrition  
 2017-2020 - Aberdeen (UK)
 
-### The libraries I have lived in
+### Education
 
 | **PhD in Human Science**             | **BSc & MSc in Social and Communication Psychology**  |
 |:-------------------------------------|:------------------------------------------------------|
 | 2017 - University of Verona (Italy)  | 2012 - University of Padova (Italy)                   |
 
-### Formal recognitions of my work
+### Formal recognitions
 
 + Awarded for the "*Best PhD 2018 Thesis*" by the Italian Psychology Association. 
 + 3-year Doctoral Scholarship sponsored by the University of Verona (Italy).
