@@ -72,6 +72,6 @@ The second tab presents secondary information relative to the individual scores.
 
 See for instance the [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx)
 
-[2]: If magic doesn't spark, please contact me at scalco.andrea@outlook.com. 
+[2]: If magic doesn't spark, please contact me at [scalco.andrea@outlook.com](mailto:scalco.andrea@outlook.com). 
 
 [3]: For this I chose the [freely available dataset by I. Khan](https://data.mendeley.com/datasets/wvt649xnvw/1)
