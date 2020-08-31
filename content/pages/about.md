@@ -5,9 +5,7 @@ title: About
 type: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor enim eget magna auctor convallis. Suspendisse convallis quam quis molestie fermentum. Aliquam erat volutpat. Pellentesque non dui commodo, maximus ante at, efficitur sapien. Praesent eget nisl efficitur, hendrerit sapien vel, molestie tellus. Etiam ornare, justo id elementum gravida, metus leo vehicula ex.
-
-All backed up by enthusiasm, empathy, and a scientific approach to problems.
+Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to problems. Over the past years, I developed artificial simulations of consumer behaviour focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my experience and skills and realised I had all the tools to make a tangible impact by researching and designign better experiences. 
 
 Some of the things that would make me lose track of time:
 
