@@ -10,7 +10,7 @@ Artificial simulations (formally, agent-based models) are a powerful technique u
 
 ### The challenge
 
-This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1](/projects/case_study_MeatNet#fn:1). Below you can see the first version of the simulation interface as programmed by the developer.
+This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1]. Below you can see the first version of the simulation interface as programmed by the developer.
 
 <img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="750" height="325px"/>
 
@@ -62,4 +62,4 @@ Finally, an analysis of the answers was conducted. Overall, the work done on the
 
 ##### Footnotes
 
-[^1]: A [scientific paper](http://jasss.soc.surrey.ac.uk/22/4/8.html) about MeatNet aimed at an audience familiar with the artificial simulations has been recently published in the Journal of Artificial Societies and Social Simulation.
+[1]: A [scientific paper](http://jasss.soc.surrey.ac.uk/22/4/8.html) about MeatNet aimed at an audience familiar with the artificial simulations has been recently published in the Journal of Artificial Societies and Social Simulation.

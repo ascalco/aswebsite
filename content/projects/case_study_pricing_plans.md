@@ -18,7 +18,7 @@ It may seem a paradox, but in some cases adding a third choice can reduce the un
 
 ### The process
 
-First, I created the materials for the research using Figma. Below I reported HealthyU original 2-option pricing plan. The two options are said to evenly split customers between the two plans [2]. 
+First, I created the materials for the research using Figma. Below I reported HealthyU original 2-option pricing plan. The two options are said to evenly split customers between the two plans [1]. 
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
 
@@ -76,4 +76,4 @@ Although the results are promising, they only measured customers' intention to s
 
 ##### Footnotes
 
-[^1]: The "original" plan was tested a few times to get the right balance between Plan A and B.
+[1]: The "original" plan was tested a few times to get the right balance between Plan A and B.
