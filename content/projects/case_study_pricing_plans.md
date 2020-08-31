@@ -16,8 +16,6 @@ The challenge is to increase the number of users that choose to register and eng
 
 It may seem a paradox, but in some cases adding a third choice can reduce the uncertainty. This, for instance, happens in the case of the attraction effect (or, decoy effect).
 
-### The process
-
 First, I created the materials for the research using Figma. Below I reported HealthyU original 2-option pricing plan. The two options are said to evenly split customers between the two plans [1]. 
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
@@ -28,7 +26,7 @@ Without altering the services offered by HealthyU, I created a third option that
 
 The attraction effect has been demonstrated in a number of studies and it seems quite robust. So, a small sample of participants should be enough to obtain meaningful results. To make things more interesting, I kept the budget low. So, websites that offer research services are banned. Instead, I relied on Qualtrics free plan and Amazon Mechanical Turk (henceforth, MTurk). Long story short, I connected the two services keeping safe the anonymity of the respondents by creating a random shared ID. I then recruited 20 participants for each condition (the original 2-option plan vs. the 3-option plan, collected the responses and analysed the data. Overall, the total expenses for the study were about £5 (£0.10 per respondent, plus MTurk service fee).
 
-### Results 
+### Results: a larger community
 
 First, let's have a look at the preference for a 2-option pricing plan (see table and plot below). It seems that the preference is almost evenly distributed (Plan A: 40%; Plan B: 60%). To move behind intuition, we perform a z-test in R and assess if there is a significant difference from a random distribution (50/50). So we run: ```binom.test(x=c(12,8), p=0.5, conf.level = 0.95)```. If the resulting *p*-value is above 0.05 there is not a significant difference between the proportions and we can effectively claim preferences are split half and half. The returned *p*-value is ```0.503```: users are equally split between the two plans.
 

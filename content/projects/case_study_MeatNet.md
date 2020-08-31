@@ -8,13 +8,13 @@ type: projects
 
 Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. This project developed an interface that could make the simulation intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
 
-### The challenge
+### The challenge: make an unfriendly interface friendly
 
 This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1]. Below you can see the first version of the simulation interface as programmed by the developer.
 
 <img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="750" height="325px"/>
 
-### The solution
+### The solution: improve-iterate-improve
 
 A series of usability tests were designed and conducted. In particular, the research was dived into three main phases.
 
@@ -57,6 +57,8 @@ Four participants took part in a third iteration. This time participants encount
 #### (3) Test the intuitiviness of the interface remotely
 
 An online survey incorporating videos of the finalised simulation interface was designed and administered. Again, participants were recruited among scientists unfamiliar with artificial simulations (a screener was added at the beginning of the survey). 11 participants took part. The survey included 3 narrated videos while tasks were performed. Participants could watch the videos as many times as wished, then they were asked to respond to a set of questions aimed at evaluating the intuitiveness of the simulation. 
+
+### Results: less frightful simulations
 
 Finally, an analysis of the answers was conducted. Overall, the work done on the model drastically improved the intuitiveness of the simulation. Not only did the majority of respondents answer the questions correctly, they were able to give explanations for their answers, indicating that they understood how the model was behaving, and providing possible reasons for unexpected results.
 

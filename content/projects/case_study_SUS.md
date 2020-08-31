@@ -21,7 +21,7 @@ I challenged myself to design and then produce a functional and intuitive data r
 
 2- How do I convey the information in a clearn and intuitive manner? In this case, I tried applying design principles being conscious of my skills with HTML and CSS.
 
-### The process: Divide and conquer
+### The solution: Divide and conquer
 
 I divided the work process into 4 tasks.
 
@@ -41,7 +41,7 @@ I divided the work process into 4 tasks.
 
 4 - **The dirty work**. Using Shiny I programmed the interface, then re-coded and automate the analysis performed in phase 2.
 
-### Results 
+### Results: it is alive!
 
 A [working prototype is available](https://ascalco.shinyapps.io/SUS-Data-Reporting/?_ga=2.231126495.1390696468.1598727132-674067509.1598615054). You can download a [sample file](projects/case_study_SUS_files/Template-SUS_analysis_questions.xlsx) and upload it into the online programme to see the magic! [2] You can also upload your data [1].
 
