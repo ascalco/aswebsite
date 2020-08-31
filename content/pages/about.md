@@ -10,7 +10,7 @@ Determined, goal-driven and with solid critical thinking skills, I mastered Beha
 Some of the things that would make me lose track of time:
 
 + Design and analyse surveys and questionnaires
-+ [Leverage Behavioural Economics principles]((/projects/case_study_pricing_plans))
++ [Leverage Behavioural Economics principles](/projects/case_study_pricing_plans)
 + Design and analyse behavioral studies and A/B tests
 + Conduct focus groups and structured interviews
 + Design, conduct, and analyse [in-person usability tests](/projects/case_study_MeatNet)

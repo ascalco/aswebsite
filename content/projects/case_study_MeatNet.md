@@ -10,9 +10,9 @@ Artificial simulations (formally, agent-based models) are a powerful technique u
 
 ### The challenge
 
-This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet[^1]. Below you can see the first version of the simulation interface as programmed by the developer.
+This research project sought to investigate issues in simulations interfaces through the refinement of the interface of a specific artificial simulation called MeatNet [1](/projects/case_study_MeatNet#fn:1). Below you can see the first version of the simulation interface as programmed by the developer.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="500px" height="215px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-1.png" alt="The simulation interface at the start of the research" width="750" height="325px"/>
 
 ### The solution
 
@@ -38,13 +38,13 @@ In addition to these general recommendations, some additional suggestions to spe
 
 Following these recommendations, the interface for MeatNet was modified to the version shown in the following figure.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="500px" height="215px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-2.jpg" alt="The simulation interface after the first phase" width="750px" height="325px"/>
 
 #### (2) Refine and iterate
 
 Following the changes made after the previous phase, a series of usability evaluations were conducted. These exercises were undertaken by non-expert participants using the think-aloud protocol, which involves asking participants to voice their thoughts as they work through a series of pre-defined tasks. Their interactions with the interface were voice and video-recorded for analysis purposes. Next to the participant set the researcher to prompt and assist if necessary. A usability evaluation undertaken in this fashion tends to require 3-5 participants to identify the key problematic issues and difficulties with an interface, at which point changes are made, and then the process begins again with the new version of the interface and a different set of participants. Iterative usability evaluations are very effective at identifying and correcting interface usability problems. The experimental set-up is shown below.
 
-<img src="/projects/case_study_MeatNet_files/MeatNet_interface-Exp_setup.png" alt="Experimental set-up for usability evaluations" width="500px" height="250px"/>
+<img src="/projects/case_study_MeatNet_files/MeatNet_interface-Exp_setup.png" alt="Experimental set-up for usability evaluations" width="500px" height="350px"/>
 
 Participants were recruited in line with our final audience (scientists unfamiliar with artificial simulations). Before starting the study participants received an information sheet about artificial simulations. For this phase, participants sought 2 different simulations and then MeatNet. The first simulation was used to show to participants a working simulation. The second gave participants the chance to engage with a simulation. Finally, the third was the target simulation. Participants were here asked to autonomously complete 4 tasks and voice their thought processes. The study lasts about 30 minutes per participant.
 

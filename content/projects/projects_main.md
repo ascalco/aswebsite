@@ -7,7 +7,7 @@ type: page
 
 ### Usability tests
 
-Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems to investigate the likely effects of interventions on those systems. Modelling software such as NetLogo enable computer and social scientists to program and develop new models. More than a dozen inputs.... [Read more](/projects/case_study_MeatNet)
+Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs.... [Read more](/projects/case_study_MeatNet)
 
 ### Application of Behavioural Sciences principles
 
