@@ -20,7 +20,7 @@ First, I created the materials for the research using Figma. Below I reported He
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
 
-Without altering the services offered by HealthyU, a **third option that will act as a decoy was created**. The figure below showed the renewed pricing plan with three option. You can see that Plan C is actually equal to the original Plan B. Instead, Plan B is now a decoy option. Being worse than C it should move users' preferences towards the desired plan, which fully engage customers with the community and a healthy living style. 
+Without altering the services offered by HealthyU, a **third option that acted as a decoy was created**. The figure below showed the renewed pricing plan with three option. You can see that Plan C is actually equal to the original Plan B. Instead, Plan B is now a decoy option. Being worse than C it should move users' preferences towards the desired plan, which fully engage customers with the community and a healthy living style. 
 
 <img src="/projects/case_study_pricing_plans_files/Plans-3_Options_with_decoy.png" alt="3-option plan" width="700px" height="450px"/>
 

@@ -6,7 +6,7 @@ output: html_document
 type: projects
 ---
 
-Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. In this project **I series of usability studies** (together with another expert HCI researcher) to make simulations interfaces intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
+Artificial simulations (formally, agent-based models) are a powerful technique used by scientists to model technical and social systems and investigate the likely effects of interventions on those systems. Modelling software such as [NetLogo](https://ccl.northwestern.edu/netlogo/) enable computer and social scientists to program and develop new models. More than a dozen inputs and outputs are usually present in the interface. In addition, these simulations display on an interface screen how systems develop in real-time. Artificial simulations are highly program-centered. In this project **I designed and conducted a series of usability studies** (together with another expert HCI researcher) with the goal of making simulations interfaces intuitive to the point of being self-explanatory to audiences unfamiliar with the methodology. 
 
 ### The challenge: make an unfriendly interface friendly
 
