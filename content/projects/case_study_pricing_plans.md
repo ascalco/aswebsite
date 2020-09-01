@@ -78,7 +78,7 @@ Finally, although the results are promising, they only measured customers' inten
 
 ##### Footnotes
 
-[1] Wang, Brede, Ianni, & Mentzakis (2018). [Social interactions in online eating disorder communities: A network perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066201/). PloS one, 13(7), e0200800.
+[1]: Wang, Brede, Ianni, & Mentzakis (2018). [Social interactions in online eating disorder communities: A network perspective](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066201/). PloS one, 13(7), e0200800.
 
 
 [2]: The "original" plan was tested a few times to get the right balance between Plan A and B.
