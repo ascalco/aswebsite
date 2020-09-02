@@ -41,7 +41,7 @@ University of Verona - Department of Human Sciences
 
 ### Education
 
-| **PhD in Human Science**             | **BSc & MSc in Social and Communication Psychology**  |
+| **PhD in Human Sciences**             | **BSc & MSc in Psychology**  |
 |:-------------------------------------|:------------------------------------------------------|
 | 2017 - University of Verona (Italy)  | 2012 - University of Padova (Italy)                   |
 
