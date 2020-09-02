@@ -34,6 +34,11 @@ The James Hutton Institute - Social, Economic and Geographical Sciences
 University of Aberdeen - Scool of Medicine, Medical Sciences, and Nutrition  
 2017-2020 - Aberdeen (UK)
 
++ **Adjunct Prof in "Creativity Techniques for Business Communication"**  
+University of Verona - Department of Human Sciences  
+2015 & 2016 - Verona (Italy)
+
+
 ### Education
 
 | **PhD in Human Science**             | **BSc & MSc in Social and Communication Psychology**  |
