@@ -5,13 +5,13 @@ title: Contacts
 type: page
 ---
 
+#### Get in touch with the form below
 
 <div class="container">
   <form action="https://getform.io/f/2d3eb1c9-10f9-4f28-968a-c7b41d15efa2" method="POST">
 
-    <label for="name">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
 
     <label for="email">Your eMail</label>
     <input type="text" id="email" name="email" placeholder="Your eMail contact..">
