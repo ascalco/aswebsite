@@ -5,8 +5,6 @@ title: About
 type: page
 ---
 
-Determined, goal-driven and with solid critical thinking skills, I mastered Behavioural Sciences and adopted a scientific approach to the resolution of problems. Over the past years, I developed artificial models of consumer behaviour: my work was highly focused on the programming side until I realised the meaning of user-driven development (see [my project on simulations interfaces](/projects/case_study_MeatNet)). From there, I started reflecting on my skills, knowledge, and experience, and I quickly realised I had all the tools to research and design experiences that would engage users and leave them the desire to come back.
-
 ### Some of the things that make me forget that outside is raining
 
 + Design and analyse surveys and questionnaires
