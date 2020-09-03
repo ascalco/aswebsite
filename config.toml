@@ -100,7 +100,8 @@ weight = 4
 [[params.social]]
 name = "eMail"
 icon = "mail"
-url = "mailto:scalco.andrea@outlook.com"
+url = "/pages/contacts"
+#url = "mailto:scalco.andrea@outlook.com"
 
 #### Tags
 [taxonomies]
