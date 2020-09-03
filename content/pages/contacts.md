@@ -14,11 +14,11 @@ type: page
     <label for="email">Your eMail</label>
     <input type="text" id="email" name="email" placeholder="What is your email address?">
 
-    <label for="email_subject">Object</label>
+    <label for="email_subject">Message Subject</label>
     <input type="text" id="email_subject" name="email_subject" placeholder="What's the subject of the message?">  
 
     <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="What do you want to write me?" style="height:250px"></textarea>
+    <textarea id="message" name="message" placeholder="What would you like to ask me?" style="height:250px"></textarea>
 
     <input type="submit" value="Submit">
 
