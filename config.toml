@@ -34,7 +34,7 @@ summaryLength = 10
 
   #### Main page content
   # Content types which are included in home page recent posts lists
-  mainSections = ["projects"] # ["pages"]
+  mainSections = ["projects", "research-bites"] # ["pages"]
   
   #### subtitle
   # Blog subtitle which appears below blog title (support Markdown)
@@ -42,7 +42,7 @@ summaryLength = 10
 	
 	#### Disques
 	# List what type of content will not have Disqus comments section
-	disableDisqusTypes = ["posts", "pages", "projects"]
+	disableDisqusTypes = ["posts", "pages", "projects", "research-bites"
 	
 	#### Icons
 	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
@@ -75,12 +75,17 @@ url = "/projects/projects_main"
 weight = 2
 
 [[menu.main]]
+name = "Research Bites"
+url = "/research-bites/research-bites-main"
+weight = 2
+
+[[menu.main]]
 name = "About"
 url = "/pages/about"
 weight = 3
 
 [[menu.main]]
-name = "Contacts"
+name = "Contact me"
 url = "/pages/contacts"
 weight = 4
 

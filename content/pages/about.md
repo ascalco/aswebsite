@@ -8,7 +8,7 @@ type: page
 ### Some of the things that make me forget that outside is raining
 
 + Design and analyse surveys and questionnaires
-+ [Leverage Behavioural Economics principles](/projects/case_study_pricing_plans) to enhance user experience
++ [Think and apply Behavioural Economics principles](/projects/case_study_pricing_plans)
 + Design and analyse behavioral studies and A/B tests
 + Conduct focus groups and structured interviews
 + Design, conduct, and analyse [in-person usability tests](/projects/case_study_MeatNet)

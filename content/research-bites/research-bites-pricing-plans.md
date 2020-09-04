@@ -3,7 +3,7 @@ title: "HealthyU pricing plans"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
-type: projects
+type: research-bites
 ---
 
 Being part of a community of people who share the same values and principles can drastically increase the chances of successfully change individual habits [1]. HealthyU is a faux case study I developed after my experience in the health and nutrition sector. I challenged myself to **increase customers subscriptions to an online community** with the minimum edits to the original plan. To this purpose, I leveraged one of my favourite Behavioral Economics phenomena: the decoy effect. Statistical analyis showed that customers preferring the higher subscription plan (where customers actively engage with the community), increased **from 60% to 85%**.

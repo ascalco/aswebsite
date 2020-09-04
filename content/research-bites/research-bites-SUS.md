@@ -3,7 +3,7 @@ title: "SUS.io"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
-type: projects
+type: research-bites
 ---
 
 The **System Usability Scale (SUS)** is a quick and useful tool for measuring the usability of a variety of products (including websites and apps). Immediately after the interaction with the products, users respond to a 10-item questionnaire with five response options (from "Strongly agree" to "Strongly disagree"). It is so popular that it accounts for more than 40% of post-test questionnaire usage (Sauro & Lewis, 2009).
