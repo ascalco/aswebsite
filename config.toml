@@ -34,7 +34,7 @@ summaryLength = 10
 
   #### Main page content
   # Content types which are included in home page recent posts lists
-  mainSections = ["projects", "research-bites"] # ["pages"]
+  mainSections = ["research-bites"] # ["pages"] ["projects", "research-bites"]
   
   #### subtitle
   # Blog subtitle which appears below blog title (support Markdown)

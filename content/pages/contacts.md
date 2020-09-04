@@ -12,7 +12,7 @@ type: page
     <input type="text" id="name" name="name" placeholder="Hi, what's your name?">
 
     <label for="email">Your eMail</label>
-    <input type="text" id="email" name="email" placeholder="What is your email address?">
+    <input type="text" id="email" name="email" placeholder="What's your email address?">
 
     <label for="email_subject">Message Subject</label>
     <input type="text" id="email_subject" name="email_subject" placeholder="What's the subject of the message?">  
