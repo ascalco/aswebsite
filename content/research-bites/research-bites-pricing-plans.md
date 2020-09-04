@@ -1,5 +1,5 @@
 ---
-title: "HealthyU pricing plans"
+title: "Increase subscription rates using the decoy effect"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
