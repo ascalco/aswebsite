@@ -42,7 +42,7 @@ summaryLength = 10
 	
 	#### Disques
 	# List what type of content will not have Disqus comments section
-	disableDisqusTypes = ["posts", "pages", "projects", "research-bites"
+	disableDisqusTypes = ["posts", "pages", "projects", "research-bites"]
 	
 	#### Icons
 	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
