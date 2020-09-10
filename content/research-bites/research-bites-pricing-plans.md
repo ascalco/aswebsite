@@ -6,14 +6,6 @@ output: html_document
 type: research-bites
 ---
 
----
-title: "How the decoy effect can direct user subscription preference"
-author: "Andrea Scalco"
-date: "28/08/2020"
-output: html_document
-type: research-bites
----
-
 Being part of a community of people who share the same values and principles can drastically increase the chances of successfully change individual habits [1]. Here I want to show how adding a restructuring a pricing plan can **increase customers subscriptions to an online health community** without altering the services offered. To this purpose, I leveraged one of my favourite Behavioral Economics phenomena: the decoy effect. Statistical analysis showed that customers preferring to actively be involved with the community increased **from 60% to 85%**.
 
 ### The bit about psychology
