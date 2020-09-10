@@ -85,4 +85,4 @@ Although the results are promising, it is important to be aware that the experim
 
 [3]: The "original" plan was tested a few times to get the right balance between Plan A and B.
 
-[4]: The R Foundation. [**“What is R?”**](https://www.r-project.org/about.html)
+[4]: The R Foundation. [*“What is R?”*](https://www.r-project.org/about.html)
