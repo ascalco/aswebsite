@@ -5,7 +5,7 @@ title: Research Bites
 type: page
 ---
 
-### Increase subscription rates using the decoy effect
+### Increase the chances to involve users using the decoy effect
 
 Being part of a community of people that share the same values and principles can drastically increase the chances of successfully change individual habits. HealthyU is a faux case study I developed after my experience in the health and nutrition sector. I challenged myself to increase customers subscriptions to an online community with the minimum.... [Read more](/research-bites/research-bites-pricing-plans)
 

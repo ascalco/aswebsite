@@ -1,5 +1,5 @@
 ---
-title: "Increase subscription rates using the decoy effect"
+title: "Increase the chances to involve users using the decoy effect"
 author: "Andrea Scalco"
 date: "28/08/2020"
 output: html_document
