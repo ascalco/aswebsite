@@ -6,7 +6,7 @@ output: html_document
 type: research-bites
 ---
 
-Being part of a community of people who share the same values and interests can drastically increase the chances of successfully change individual food habits [1]. Here **I show how a 2-option pricing plan to an online health community can be restructed to increase customers willingness to be involved** without altering the services offered. To this purpose, I leveraged one of my favourite Behavioral Economics phenomena: the decoy effect. Statistical analysis showed that customers preferring to be involved with the community **increased from 60% to 85%**.
+Being part of a community of people who share the same values and interests can drastically increase the chances of successfully change individual food habits [1]. Here **I show how a 2-option pricing plan to an online health community can be restructed to increase users' intention to be involved** without altering the services offered. To this purpose, I leveraged one of my favourite Behavioral Economics phenomena: the decoy effect. Statistical analysis showed that customers preferring to be involved with the community **increased from 60% to 85%**.
 
 ### The bit about psychology
 
@@ -21,7 +21,7 @@ The original plan: a 2-option pricing plan. The first plan entails a paid newsle
 
 <img src="/projects/case_study_pricing_plans_files/Plans-2_Options-Updated.png" alt="2-option plan" width="700px" height="450px"/>
 
-From the image you can see I am promoting two services: the first provides the subscription to a monthly newsletter, whereas the second add to the first the access to the online community. **My objective is to increase users willingness to be involved in the community without altering the number or types of service offered**. Although pretty basic, this example can be used as a starting point to show how the decoy effect work.
+From the image you can see I am promoting two services: the first provides the subscription to a monthly newsletter, whereas the second add to the first the access to the online community. **My objective is to increase users' intention to be involved in the community without altering the number or types of service offered**. Although pretty basic, this example can be used as a starting point to show how the decoy effect work.
 
 ### Add a third option...to reduce uncertainty
 
@@ -74,7 +74,7 @@ Users' preference for the plans by prices (£3/month to receive the newsletter v
 
 </center>
 
-Again, the z-test can be used to assess the statistical difference between the proportions calling R and typing ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, **the  3-option plan, which used the middle option as a decoy,  increases users' willingness to be involved to the community**. I  also estimated the 95% confidence intervals and I added them to the bar  plot so that the effects can be visually inspected and more easily  interpreted. The shift in preferences for the 3-option plan is rather visible.
+Again, the z-test can be used to assess the statistical difference between the proportions calling R and typing ```binom.test(x=c(17,3), p=0.5, conf.level = 0.95)```. The returned *p*-value is ```0.003```, below the threshold of 0.05. Therefore, **the  3-option plan, which used the middle option as a decoy,  increases users' intention to be involved to the community**. I  also estimated the 95% confidence intervals and I added them to the bar  plot so that the effects can be visually inspected and more easily  interpreted. The shift in preferences for the 3-option plan is rather visible.
 
 Bar plot showing users' preference for the plans split by conditions (£3/month to receive the newsletter vs. £5/month to access the online community).
 
@@ -87,7 +87,7 @@ Although the described work might look straightforward, it required several atte
 
 An unexpected result is the actual preference of some users for the decoy option despite the chance to pay the same price and get the newsletter. In this case, it would be interesting to conduct some qualitative research about the motivations of some users to avoid receiveing the newsletter.
 
-It is important to note that the experiment could only measure users' willingness to be involved to the community (i.e. their intention). The question now is, will users actually engage with the online community? For this data we will have to look at data about subscribers' behaviours.
+It is important to note that the experiment could only measure users' intention to be involved to the community (i.e. their intention). The question now is, will users actually engage with the online community? For this data we will have to look at data about subscribers' behaviours.
 
 ##### Footnotes
 
