@@ -6,8 +6,6 @@ output: html_document
 type: research-bites
 ---
 
-# Or, how psychology can help designing no-brainer choices
-
 Being part of a community of people who share the same values and interests can drastically increase the chances of successfully change individual food habits [1]. **Here I show how a 2-option pricing plan to an online food blog community can be restructured to increase users' intention to be involved without altering the services offered**. To this purpose, I leveraged one of my favourite Behavioral Economics phenomena: the decoy effect. Statistical analysis showed that customers preference for being involved with the community **increased from 60% to 85%**.
 
 ### The bit about psychology
