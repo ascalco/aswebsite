@@ -1,4 +1,4 @@
-baseURL = "https://www.andreascalco.com/"
+baseURL = "https://asuxr.netlify.app/" #"https://www.andreascalco.com/"
 languageCode = "en-us"
 title = "Andrea Scalco"
 theme = "ezhil"
