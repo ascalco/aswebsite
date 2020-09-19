@@ -1,6 +1,6 @@
-baseURL = "https://www.asuxr.netlify.app/" #"https://www.andreascalco.com/"
+baseURL = "https://asuxr.netlify.app/" #"https://www.andreascalco.com/"
 languageCode = "en-us"
-title = "Andrea Scalco"
+title = "Name Surname"
 theme = "ezhil"
 # Number of posts to show in recent posts list
 paginate = 5
